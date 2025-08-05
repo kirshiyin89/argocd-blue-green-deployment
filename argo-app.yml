@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: blue-green-demo
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/kirshiyin89/argocd-blue-green-deployment
+    path: blue-green-app
+    targetRevision: HEAD
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true

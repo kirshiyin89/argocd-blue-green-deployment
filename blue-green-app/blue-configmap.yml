@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config-blue
+  namespace: default
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Blue-Green Demo</title>
+        <style>
+            body { 
+                font-family: Arial; 
+                text-align: center; 
+                padding: 50px; 
+                background-color: #f0f0f0; 
+                color: #333; 
+                border: 3px solid #333;
+            }
+            .version-box {
+                background-color: #e8e8e8;
+                padding: 20px;
+                margin: 20px;
+                border-radius: 8px;
+                border: 2px dashed #666;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>🔵 BLUE ENVIRONMENT 🔵</h1>
+        <div class="version-box">
+            <h2>Version 1.0.0</h2>
+            <p><strong>Environment:</strong> BLUE</p>
+            <p><strong>Release Date:</strong> January 2025</p>
+            <p><strong>Status:</strong> PRODUCTION</p>
+            <p><strong>Features:</strong> Basic functionality, stable release</p>
+        </div>
+        <p>🏷️ <strong>Pod Label:</strong> version=blue</p>
+        <p>⚡ <strong>Instance ID:</strong> BLUE-PROD-001</p>
+    </body>
+    </html>
