@@ -28,7 +28,7 @@ data:
         </style>
     </head>
     <body>
-        <h1>🔵 BLUE ENVIRONMENT 🔵</h1>
+        <h1>BLUE ENVIRONMENT</h1>
         <div class="version-box">
             <h2>Version 1.0.0</h2>
             <p><strong>Environment:</strong> BLUE</p>
@@ -36,7 +36,7 @@ data:
             <p><strong>Status:</strong> PRODUCTION</p>
             <p><strong>Features:</strong> Basic functionality, stable release</p>
         </div>
-        <p>🏷️ <strong>Pod Label:</strong> version=blue</p>
-        <p>⚡ <strong>Instance ID:</strong> BLUE-PROD-001</p>
+        <p><strong>Pod Label:</strong> version=blue</p>
+        <p><strong>Instance ID:</strong> BLUE-PROD-001</p>
     </body>
     </html>
