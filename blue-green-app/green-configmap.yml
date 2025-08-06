@@ -34,7 +34,7 @@ data:
         </style>
     </head>
     <body>
-        <h1>🟢 GREEN ENVIRONMENT 🟢</h1>
+        <h1> GREEN ENVIRONMENT</h1>
         <div class="version-box">
             <h2>Version 2.0.0</h2>
             <p><strong>Environment:</strong> GREEN</p>
@@ -43,12 +43,12 @@ data:
             <p><strong>Features:</strong> Enhanced UI, new API endpoints</p>
         </div>
         <div class="new-feature">
-            <h3>🆕 NEW FEATURES</h3>
-            <p>✅ Improved performance</p>
-            <p>✅ Better error handling</p>
-            <p>✅ Enhanced security</p>
+            <h3>NEW FEATURES</h3>
+            <p> Improved performance</p>
+            <p>Better error handling</p>
+            <p>Enhanced security</p>
         </div>
-        <p>🏷️ <strong>Pod Label:</strong> version=green</p>
-        <p>⚡ <strong>Instance ID:</strong> GREEN-TEST-002</p>
+        <p><strong>Pod Label:</strong> version=green</p>
+        <p><strong>Instance ID:</strong> GREEN-TEST-002</p>
     </body>
     </html>
